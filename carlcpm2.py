@@ -2,7 +2,7 @@ import requests
 import json
 from time import sleep
 
-__ENDPOINT_URL__: str = "https://kaitoapi.squareweb.app/api"
+__ENDPOINT_URL__: str = "https://kaitoapi'.squareweb.app/api"
 
 class Carlcpm:
     def __init__(self, access_key) -> None:
