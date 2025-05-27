@@ -7,8 +7,8 @@ __ENDPOINT_URL__: str = "https://kaitoapi.squareweb.app/api"
 class Carlcpm:
     def __init__(self, access_key) -> None:
         self.auth_token = None
-        self.access_key = access_key
-    
+        self.access_key = ('C2437FF311)
+    '
     def login(self, email, password) -> int:
         payload = { "account_email": email, "account_password": password }
         params = { "key": self.access_key }
