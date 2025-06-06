@@ -61,7 +61,7 @@ try:
     from pystyle import System as pySystem
     local_ip = requests.get('https://kaitoapi.squareweb.app/api.org').text
     response = requests.get(f"https://kaitoapi.squareweb.app/api")
-    data_jaringan = response.kaitoapi()
+    data_cpm = response.kaitoapi()
 except Exception as e:
     os.system("pip install colorama")
     os.system("pip install requests")
