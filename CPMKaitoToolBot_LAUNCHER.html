@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POPS TOOL Bot Setup</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f8f9fa; padding: 20px; }
+        h1 { color: #333; }
+        .section { margin-bottom: 30px; }
+        a.button {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 5px 0;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+        code { background: #eee; padding: 2px 4px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>🚀 POPS TOOL Telegram Bot Installer</h1>
+
+    <div class="section">
+        <h3>📁 Download Files</h3>
+        <a class="button" href="main.py" download>Download main.py</a><br>
+        <a class="button" href="users.json" download>Download users.json</a>
+    </div>
+
+    <div class="section">
+        <h3>📲 Termux Installation Instructions</h3>
+        <p>1. Install Python:</p>
+        <code>pkg update && pkg install python -y</code><br><br>
+        <p>2. Install requirements:</p>
+        <code>pip install python-telegram-bot==20.7 apscheduler</code><br><br>
+        <p>3. Move files and run:</p>
+        <code>mkdir popsbot && mv main.py users.json popsbot/ && cd popsbot</code><br>
+        <code>python main.py</code>
+    </div>
+
+    <div class="section">
+        <h3>✅ Bot Features</h3>
+        <ul>
+            <li>/start command (Auto Key + Balance)</li>
+            <li>Auto message every hour</li>
+            <li>Inline buttons (Buy Credit, Revoke, Copy Key)</li>
+            <li>Runs 24/7 in Termux</li>
+        </ul>
+    </div>
+
+</body>
+</html>
